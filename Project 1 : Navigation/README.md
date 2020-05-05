@@ -1,5 +1,3 @@
-[image1]: (images/Bananas_way.gif) "Trained Agent"
-
 # Deep Reinforcement Learning Project: Navigation
 
 This repository presents my solution for the [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)'s first project **`Navigation`**. 
@@ -8,7 +6,7 @@ This repository presents my solution for the [Deep Reinforcement Learning Nanode
 
 For this project, the goal is to train an agent to navigate (and collect bananas!) in a large, square world. In particular, the agent has to collect as many yellow bananas as possible while avoiding blue bananas. 
 
-![Trained Agent][image1]
+![Trained Agent](images/Bananas_way.gif)
 
 For each yellow banana collected the agent gets a reward of +1, and for each blue banana collected the agent gets a reward (which is a penality in this case) of -1.
 
