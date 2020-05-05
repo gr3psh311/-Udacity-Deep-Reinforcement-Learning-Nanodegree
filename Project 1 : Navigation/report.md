@@ -1,5 +1,3 @@
-[image1]: (images/Bananas_way.gif) "Trained Agent"
-
 # Bananas_way: 
 
 Navigation project by Udacity for the Deep Reinforcement Learning Nanodegree
@@ -8,7 +6,7 @@ Navigation project by Udacity for the Deep Reinforcement Learning Nanodegree
 
 For this project, the goal is to train an agent to navigate (and collect bananas!) in a large, square world. In particular, the agent has to collect as many yellow bananas as possible while avoiding blue bananas. 
 
-![Trained Agent][image1]
+![Trained Agent](images/Bananas_way.gif)
 
 For each yellow banana collected the agent gets a reward of +1, and for each blue banana collected the agent gets a reward (which is a penality in this case) of -1.
 
@@ -51,7 +49,7 @@ The hyperparameters used in our DQN implementation are:
 
 
 ## Results
-The results presented bellow meet the project's expectation, as our agent is able to get an average reward of at least +13 over 100 episodes. This performance is reached within 600 episodes only (for the sake of illustrating the results, in Udacity's solution code for the project, their agent was able to solve the project in fewer than 1800 episodes).
+The results presented bellow meet the project's expectation, as our agent is able to get an average reward of at least +13 over 100 episodes. This performance is reached within less than 700 episodes only (for the sake of illustrating the results, in Udacity's solution code for the project, their agent was able to solve the project in fewer than 1800 episodes).
 
 ```
 Episode 100	Average Score: 0.36
